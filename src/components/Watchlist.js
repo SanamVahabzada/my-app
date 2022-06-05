@@ -8,7 +8,7 @@ export default function Watchlist() {
     <div className="movie-page">
       <div className="container">
         <div className="header">
-          <h1 className="heading">İzlenecek Filmler</h1>
+          <h1 className="heading">Movies to Watch</h1>
 
           <div className="count-pill">
             {watchlist.length} {watchlist.length < 2 ? "Movie" : "Movies"}
@@ -22,7 +22,7 @@ export default function Watchlist() {
             ))}
           </div>
         ) : (
-          <h2 className="no-movies">Listenizde Film Yok...</h2>
+          <h2 className="no-movies">No movies on your list...</h2>
         )}
       </div>
     </div>

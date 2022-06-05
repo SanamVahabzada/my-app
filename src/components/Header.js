@@ -7,12 +7,12 @@ export default function Header() {
         <div className='container'>
             <div className='inner-content'>
                 <div className='brand'>
-                    <Link to={"/"}>İzlənəcək filmlər</Link>
+                    <Link to={"/"}>Watching</Link>
                 </div>
 
                 <ul className='nav-links'>
                     <li>
-                        <Link to={"/watched"}>İzlənən filmlər</Link>
+                        <Link to={"/watched"}>Watched</Link>
                     </li>
                     <li>
                         <Link to={"/add"} className='btn'>

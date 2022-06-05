@@ -8,7 +8,7 @@ export default function Watched() {
     <div className='movie-page'>
       <div className='container'>
         <div className='header'>
-          <h1 className='heading'> İzlənəcək filmlər </h1>
+          <h1 className='heading'> Movies Watched </h1>
 
           <div className='count-pill'>
             {watched.length} {watched.length < 2 ? "Movie" : "Movies"}
@@ -22,7 +22,7 @@ export default function Watched() {
             ))}
           </div>
         ) : (
-          <h2 className='no-movies'> Listinizdə film yoxdur...</h2>
+          <h2 className='no-movies'> No movies on your list...</h2>
         )}
       </div>
     </div>
