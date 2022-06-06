@@ -28,8 +28,8 @@ export default function Add() {
                 <div className='add-content'>
                     <img src='https://image.tmdb.org/t/p/w1920_and_h600_multi_faces_filter(duotone,032541,01b4e4)/9ZyAUZrfccsjtDwYgc7yvOBnqM9.jpg' alt='foto' />
                     <div className='titles'>
-                        <h1>Xoş Gəldiniz</h1>
-                        <h2>Milyonlarla film, serial və TV proqramları burada. İndi kəşf edin.</h2>
+                        <h1>Welcome!</h1>
+                        <h2>Millions of movies, series and TV shows are here. Discover now.</h2>
                     </div>
                     <div className='input-wrapper'>
                         <input
